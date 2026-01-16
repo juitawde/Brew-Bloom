@@ -49,7 +49,17 @@ Brew-Bloom-Cafe/
 ├── logo.png
 └── README.md
 
-**🎯 Purpose of the Project**
+## 📸 Screenshots
+
+Screenshots included in the report demonstrate:
+
+- Home page hero section  
+- Navigation bar  
+- Brews and Specials cards  
+- Contact page layout
+
+
+## 🎯 Purpose of the Project
 
 This project was developed as part of a **B.Tech CSE practical** to demonstrate:
 
@@ -59,7 +69,7 @@ This project was developed as part of a **B.Tech CSE practical** to demonstrate:
 - Clean UI design principles
 
 
-**🚀 Future Enhancements**
+## 🚀 Future Enhancements
 
 - Add JavaScript for interactive elements  
 - Improve responsiveness for all devices  
