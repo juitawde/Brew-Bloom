@@ -50,7 +50,7 @@ Brew-Bloom-Cafe/
 ├── logo.png
 └── README.md
 
-## 🎯 Purpose of the Project
+**🎯 Purpose of the Project**
 
 This project was developed as part of a **B.Tech CSE practical** to demonstrate:
 
@@ -59,7 +59,8 @@ This project was developed as part of a **B.Tech CSE practical** to demonstrate:
 - Structured and accessible webpage layout  
 - Clean UI design principles
 
-## 🚀 Future Enhancements
+
+**🚀 Future Enhancements**
 
 - Add JavaScript for interactive elements  
 - Improve responsiveness for all devices  
