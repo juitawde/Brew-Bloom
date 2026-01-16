@@ -53,10 +53,27 @@ Brew-Bloom-Cafe/
 
 Screenshots included in the report demonstrate:
 
-- Home page hero section  
-- Navigation bar  
-- Brews and Specials cards  
-- Contact page layout
+- Full home page
+
+<img width="1470" height="956" alt="Screenshot 2026-01-16 at 8 16 48 PM" src="https://github.com/user-attachments/assets/b4fad89b-3c9f-49b4-9c42-5cf89bed0bb2" />
+<img width="1470" height="956" alt="Screenshot 2026-01-16 at 8 16 56 PM" src="https://github.com/user-attachments/assets/1bac1210-8d30-41e8-83a7-17f3efee9b9e" />
+
+- About Page
+
+<img width="1470" height="956" alt="Screenshot 2026-01-16 at 8 17 13 PM" src="https://github.com/user-attachments/assets/b6810e79-3260-4a2a-aba2-07cf974f8d39" />
+
+- Brews Page
+
+<img width="1470" height="956" alt="Screenshot 2026-01-16 at 8 17 22 PM" src="https://github.com/user-attachments/assets/d7690355-0cc0-4de9-900b-c7f1361365df" />
+
+- Specials Page
+
+<img width="1470" height="956" alt="Screenshot 2026-01-16 at 8 17 29 PM" src="https://github.com/user-attachments/assets/91edab9a-9b9b-4d81-bb0d-4469a3367417" />
+
+- Contact Page
+
+<img width="1470" height="956" alt="Screenshot 2026-01-16 at 8 17 40 PM" src="https://github.com/user-attachments/assets/df96fe62-bf07-497b-af94-046677c6eb1b" />
+<img width="1470" height="956" alt="Screenshot 2026-01-16 at 8 17 48 PM" src="https://github.com/user-attachments/assets/74a80294-bc10-4ae0-9a0a-fe46841618b4" />
 
 
 ## 🎯 Purpose of the Project
