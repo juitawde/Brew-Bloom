@@ -37,7 +37,6 @@ A hero video section enhances the visual appeal while pastel colors and elegant 
 
 ## 📂 Project Structure
 
-```plaintext
 Brew-Bloom-Cafe/
 │
 ├── index.html
