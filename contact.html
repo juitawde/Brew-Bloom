@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Brew & Bloom Café</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Contact</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="brews.html">Brews</a>
+    <a href="specials.html">Specials</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Visit Us Section -->
+  <section class="contact">
+    <h2>Visit Us</h2>
+    <p>
+      Brew & Bloom Cafe, 12B, Sea View Apartments,  
+      Carter Road, Bandstand, Bandra West,  
+      Mumbai, Maharashtra 400050, India.
+    </p>
+    <p>Open: 8 AM – 10 PM</p>
+    <p>Email: hello@brewandbloom.com</p>
+    <p>Contact: 8435590871 / 9055469251</p>
+  </section>
+
+  <!-- Feedback Section -->
+  <section class="feedback-section">
+    <h2>Your Feedback ☕</h2>
+    <p>Help us make your next visit even better!</p>
+
+    <!-- SINGLE FORM (NO NESTING) -->
+    <form class="feedback-form" action="https://formspree.io/f/xreeezbj" method="POST">
+      
+      <input type="hidden" name="_subject" value="Cafe Feedback">
+      <input type="hidden" name="_captcha" value="false">
+
+      <label>Name</label>
+      <input type="text" name="Name" placeholder="Your name" required>
+
+      <label>Email</label>
+      <input type="email" name="Email" placeholder="you@example.com" required>
+
+      <label>Overall Experience</label>
+      <select name="Overall Experience" required>
+        <option value="">Select rating</option>
+        <option>⭐⭐⭐⭐⭐ Excellent</option>
+        <option>⭐⭐⭐⭐ Very Good</option>
+        <option>⭐⭐⭐ Good</option>
+        <option>⭐⭐ Fair</option>
+        <option>⭐ Poor</option>
+      </select>
+
+      <label>Food Quality</label>
+      <select name="Food Quality" required>
+        <option value="">Select</option>
+        <option>⭐⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐</option>
+        <option>⭐⭐</option>
+        <option>⭐</option>
+      </select>
+
+      <label>Service</label>
+      <select name="Service" required>
+        <option value="">Select</option>
+        <option>⭐⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐</option>
+        <option>⭐⭐</option>
+        <option>⭐</option>
+      </select>
+
+      <label>Ambience</label>
+      <select name="Ambience" required>
+        <option value="">Select</option>
+        <option>⭐⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐</option>
+        <option>⭐⭐</option>
+        <option>⭐</option>
+      </select>
+
+      <label>What did you love?</label>
+      <input type="text" name="Loved" placeholder="Coffee, vibe, staff...">
+
+      <label>What can we improve?</label>
+      <textarea name="Improvements" rows="4" placeholder="Your suggestions..."></textarea>
+
+      <label>Would you recommend us?</label>
+      <div class="radio-group">
+        <label>
+          <input type="radio" name="Recommend" value="Yes" required> Yes
+        </label>
+        <label>
+          <input type="radio" name="Recommend" value="No"> No
+        </label>
+      </div>
+
+      <button type="submit">Submit Feedback</button>
+
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Brew & Bloom Café</p>
+  <p>Brewing comfort, one cup at a time ☕</p>
+</footer>
+
+</body>
+</html>
