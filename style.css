@@ -354,17 +354,20 @@ nav a:hover {
   color: #6b4a3d;
   font-size: 34px;
   margin-bottom: 8px;
+  margin-left: 118px;
 }
 
 .feedback-section p {
   color: #8a6a5c;
   margin-bottom: 30px;
+  margin-left: 118px;
 }
 
 /* Form Box */
 .feedback-form {
-  max-width: 850px;
-  margin: auto;
+  max-width: 900px;
+  margin-left: 118px;
+  text-align: left;
   background: #fde2e4;
   padding: 35px;
   border-radius: 22px;
