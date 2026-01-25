@@ -12,7 +12,7 @@
   --white: #ffffff;
   --pastel-lavender: #e6d9ff;
   --coffee-brown: #6f4e37;
-  --shadow: 0 10px 25px rgba(0,0,0,0.08);
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* ------------------ RESET ------------------ */
@@ -111,9 +111,9 @@ nav a:hover {
   transform: translateX(-50%);
   width: 600px;
   z-index: 3;
-  margin-bottom: 25px;  
+  margin-bottom: 25px;
   line-height: 1.2;
-  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
 }
 
 /* TEXT */
@@ -427,4 +427,127 @@ footer {
   text-align: center;
   padding: 25px;
   font-size: 0.95rem;
+}
+
+/* ---------- BREW PRICE TEXT ---------- */
+.brew-card p {
+  font-size: 1rem;
+  color: var(--coffee-brown);
+  margin-top: 6px;
+}
+
+/* ---------- ADD TO CART BUTTON ---------- */
+.brew-card button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--blush), var(--sage));
+  color: var(--brown);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.brew-card button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, var(--sage), var(--blush));
+}
+
+/* Click effect */
+.brew-card button:active {
+  transform: scale(0.96);
+}
+
+/* ---------- GENERAL ACTION BUTTONS ---------- */
+button {
+  padding: 12px 26px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--blush), var(--sage));
+  color: var(--brown);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Click */
+button:active {
+  transform: scale(0.96);
+}
+
+/* ---------- YOUR ORDER BOX FIX ---------- */
+/* ORDER SECTION */
+.cart {
+  max-width: 920px;
+  margin: 70px 0 80px 10px; /* LEFT aligned */
+}
+
+/* HEADING – NOT IN BOX */
+.cart h2 {
+  font-size: 32px;
+  color: #5b4636;
+  margin-bottom: 24px;
+}
+
+/* BOX BACKGROUND – BLUSH CREAM */
+#cart-items,
+#total-bill,
+.cart button {
+  background-color: #fff7ec; /* your pastel box color */
+  width: 100%;
+  display: block;
+}
+
+/* ITEMS LIST */
+#cart-items {
+  list-style: none;
+  margin: 0;              /* remove bottom margin */
+  padding: 25px 35px;     /* slightly reduced padding for top/bottom */
+  border-radius: 22px 22px 0 0;
+}
+
+#cart-items li {
+  padding: 12px 0;        /* reduce internal padding slightly */
+  font-size: 16.5px;
+  color: #4a3a2a;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+/* TOTAL BILL */
+#total-bill {
+  margin: 0;              /* remove margin */
+  padding: 18px 35px;     /* slightly reduced padding */
+  font-size: 21px;
+  font-weight: 600;
+  color: #6b4a3d;
+}
+
+/* BUTTON */
+.cart button {
+  padding: 18px;
+  background-color: #f5c2c7; /* darker blush */
+  color: #4a2f33;
+  border: none;
+  border-radius: 0 0 22px 22px;
+  font-size: 16.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+.cart button:hover {
+  background-color: #f1aeb5;
 }
